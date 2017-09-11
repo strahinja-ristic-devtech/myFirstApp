@@ -1,9 +1,15 @@
 <?php 
-	namespace models\Cat;
+	//namespace models\myCat;
 	Class Cat {
 
-		static function says {echo 'Feed me';}
+		public function __construct(){
+
+			echo 'Feed me!';
+		}
+
+		static function says() {echo 'feed me human';}
+
 
 
 	}
-	?>
+	
